@@ -1,0 +1,32 @@
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+
+# Python environments, caches and generated data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+vector_store/
+fileStorage/
+*.db
+
+# Local-only configuration and secrets
+.env.local
+.env.*.local
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Large upstream demo media (kept locally; not needed to run the project)
+**/images/preview*.mp4
+**/images/preview*.gif
+
+# Logs and editor settings
+*.log
+logs/
+.idea/
+.DS_Store
